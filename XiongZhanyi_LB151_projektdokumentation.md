@@ -27,7 +27,7 @@
 
 # 2 Technologie
 
-✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
+✍️ JSF
 
 # 3 Datenbank
 
