@@ -1,6 +1,6 @@
 # Projekt-Dokumentation
 
-✍️ Ihr Nachname
+✍️ Xiong
 
 | Datum | Version | Zusammenfassung                                              
 | ----- | ------- | ------------------------------------------------------------ 
@@ -31,7 +31,7 @@
 
 # 3 Datenbank
 
-✍️ JDBC
+✍️ JDBC, MySQL, XAMPP mit MariaDB
 
 # 4.1 User Stories
 
@@ -41,9 +41,14 @@
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    | Muss                | Funktional     | Als ein Administrator möchte ich mich mithilfe von einem Benutzername und einem Passwort authentifizieren können, damit nicht jeder Daten bearbeiten, hinzufügen oder löschen können. |
-| 2  | Muss                |      | Als ein Administrator möchte ich Phrasen und Rätselwörter anlegen, abändern und löschen können, damit das Spiel mit neuen Phrasen und Rätselwörter erweitert werden kann, falls es Fehler mit den Phrasen und Rätselwörter gibt, können diese ebenfalls dann abgeändert oder gelöscht werden. |
-| 3  | Muss                |      | Als ein Administrator möchte ich  , damit                                   |
+| 1    | Muss                | Funktional | Als ein Administrator möchte ich mich mithilfe von einem Benutzername und einem Passwort authentifizieren können, damit nicht jeder Daten bearbeiten, hinzufügen oder löschen können. |
+| 2  | Muss                | Funktional | Als ein Administrator möchte ich Phrasen und Rätselwörter anlegen, abändern und löschen können, damit das Spiel mit neuen Phrasen und Rätselwörter erweitert werden kann, falls es Fehler mit den Phrasen und Rätselwörter gibt, können diese ebenfalls dann abgeändert oder gelöscht werden. |
+| 3  | Muss | Funktional | Als ein Administrator möchte ich Kategorien anlegen können, damit das Spiel erweitert werde kann. |
+| 4  | Muss | Funktional | Als ein Administrator möchte ich jedes Wort bzw. jede Frage einer Kategorie zuordnen können, damit der Benutzer eine Kategorie für das Spiel mit den entsprechend zugeordnete Wörter bzw. Fragen auswählen können. |
+| 5  | Muss | Funktional | Als ein Administrator möchte ich Einträge der Highscore-Liste löschen, damit . |
+|   | Muss | Randbedingung | Als ein Kanditat möchte ich eine Webbrowserapplikation vom abgewandelte Version vom Glückrad, damit . |
+|   | Muss | Funktional | Als ein Kanditat möchte ich einen Namen angeben können, damit ich mich mit anderen Spielern mithilfe von der Highscore Liste vergleichen kann. |
+|   | Muss | Randbedingung | Als ein Kanditat möchte ich zur jeder Zeit mein Kontostand sehen, damit . |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
