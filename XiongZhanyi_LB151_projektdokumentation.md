@@ -21,6 +21,7 @@
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
 * Tier 1 (Presentation): 
+* Kanditatname Eingabe, Administrator Login, Glücksradspiel, 
 * Tier 2 (Webserver):
 * Tier 3 (Application Server):
 * Tier 4 (Dataserver):
