@@ -54,8 +54,9 @@ JDBC, MySQL, XAMPP mit MariaDB
 |   | Muss | Funktional | Als ein Kanditat möchte ich zur jeder Zeit mein Kontostand sehen, damit ich motiviert werden einen möglichst hohen Geldbetrag zu erspielen. |
 |   | Muss | Funktional | Als ein Kanditat möchte ich zur jeder Zeit meine Lebenpunkte sehen, damit ich weiss wie viele Vokale ich noch erkaufen kann. |
 |   | Muss | Funktional | Als ein Kanditat möchte ich dass mir mitgeteilt wird ob meine Antwort richtig oder falsch war, damit ein Glücksgefühl bei einer richtigen Antwort ausgelöst wird. |
-
-
+|   | Muss | Funktional | Als ein Kanditat möchte ich Rang, Name des Spielers, Zeitpunkt des Spiels, Geldbetrag und Anzahl Spielrunden in der Hightscore-Liste sehen, damit ich mich mit anderen Spielern vergleichen kann und motiviert werde mich mit anderen Spielern zu messen. |
+|   | Muss | Funktional | Als ein Kanditat möchte ich das die Highscore-Liste nach dem Geldbetrag absteigend sortiert wird, damit ich motiviert werde, so lange zu spielen, bis ich an der Spitze bin. |
+|   | Muss | Funktional |  |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
