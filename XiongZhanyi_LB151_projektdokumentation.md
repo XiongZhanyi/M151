@@ -21,7 +21,7 @@
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
 * Tier 1 (Presentation): 
-* index.xhtml ()
+* index.xhtml
 * 
 * Tier 2 (Webserver):
 * Tier 3 (Application Server):
@@ -30,7 +30,7 @@
 # 2 Technologie
 
 ✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
-JSF
+JSF, Java
 
 # 3 Datenbank
 
