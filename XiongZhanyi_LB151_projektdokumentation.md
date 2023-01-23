@@ -4,7 +4,7 @@
 
 | Datum | Version | Zusammenfassung                                              
 | ----- | ------- | ------------------------------------------------------------ 
-| 09.01 | 0.0.1   | Projekt-Dokumentation Analyse "Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:"
+| 09.01.2023 | 0.0.1   | Projekt-Dokumentation Analyse "Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:"
 | 22.01.2023 | 0.0.2   | GUI Prototyp                                                         
 |       | 0.0.3   |                                                              
 |       | 0.0.4   |                                                              
