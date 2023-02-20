@@ -1,0 +1,9 @@
+Dataserver\AdministratorDAO.class
+Dataserver\FortuneWheelDAO.class
+Webserver\FortuneWheelGame.class
+Applicationserver\Category.class
+Webserver\HighscoreController.class
+Applicationserver\PuzzleWord.class
+Dataserver\HighscoreDAO.class
+Applicationserver\Highscore.class
+Applicationserver\Player.class
