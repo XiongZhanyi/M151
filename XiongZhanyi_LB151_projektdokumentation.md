@@ -90,6 +90,7 @@ JDBC, MySQL, XAMPP mit MariaDB
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | 1) Der Administrator mit dem Benutzername "Zhanyi Xiong" mit dem Passwort "Zhanyi123" ist in der Datenbank vorhanden. <br> 2) Die Seite index.html vom Glücksrad Spiel ist geöffnet. | 1) Klicken Sie auf Administrator. <br> 2) Tragen sie bei Username «Zhanyi Xiong» ein. <br> 3) Tragen sie bei Passwort «Zhanyi123» ein. <br> 4) Klicken Sie auf «Login». | 1) Sie werden Seite Category.html weitergeleitet. |
 | 2.1  | 1) Der Administrator mit dem Benutzername "Zhanyi Xiong" mit dem Passwort "Zhanyi123" ist in der Datenbank vorhanden. <br> 2) Die Seite index.html vom Glücksrad Spiel ist geöffnet. | 1) Klicken Sie auf Administrator. <br> 2) Tragen sie bei Username «Zhanyi Xiong» ein. <br> 3) Tragen sie bei Passwort «Zhanyi123» ein. <br> 4) Klicken Sie auf «Login». | 1) Sie werden Seite Category.html weitergeleitet. |
+| .1  | 1) Der Administrator mit dem Benutzername "Zhanyi Xiong" mit dem Passwort "Zhanyi123" ist in der Datenbank vorhanden. <br> 2) Die Seite index.html vom Glücksrad Spiel ist geöffnet. | 1) Klicken Sie auf Administrator. <br> 2) Tragen sie bei Username «Zhanyi Xiong» ein. <br> 3) Tragen sie bei Passwort «Zhanyi123» ein. <br> 4) Klicken Sie auf «Login». | 1) Sie werden Seite Category.html weitergeleitet. |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
