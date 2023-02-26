@@ -15,7 +15,7 @@
                     <div class="ui-fluid">
                         <div class="field">
                             <p:inputText id="username" maxlength="40" required="true" value="#{fortuneWheelGame.username}"/>
-                            <p:commandButton action="#{fortuneWheelGame.startGame()}" value="Play"/>
+                            <p:commandButton action="#{fortuneWheelGame.startGame}" value="Play"/>
                         </div>
                     </div>
             </h:form>  
@@ -26,10 +26,10 @@
                 <div class="ui-fluid">
                     <div class="field">
                         <p:commandButton action="/highscore" value="Highscore"/>
+                        <p:commandButton action="/login" value="Login"/>
                     </div>
                 </div>
             </h:form>
-            <h:outputText value=""/>
         </p:panelGrid>
     </h:body>
 </html>

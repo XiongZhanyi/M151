@@ -32,4 +32,9 @@ public class Category {
     public void addPuzzleWord(PuzzleWord puzzleWord){
         this.puzzleWordList.add(puzzleWord);
     }
+
+    public List<PuzzleWord> getPuzzleWordList() {
+        return puzzleWordList;
+    }
+    
 }

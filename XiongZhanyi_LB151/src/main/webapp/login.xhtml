@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <p:panelGrid columns="3" layout="grid">
+            <h:outputText value=""/>
+
+            <h:form>
+                <h1>Admin</h1>
+                    <div class="ui-fluid">
+                        <div class="field">
+                            <p:inputText id="Admin_Username" maxlength="40" required="true" value="#{loginController.username}" placeholder="Admin Username"/>
+                            <p:inputText id="Admin_Password" maxlength="40" required="true" value="#{loginController.password}" placeholder="Admin Password"/>
+                            <p:commandButton action="#{loginController.doLogin()}" value="Login"/>
+                        </div>
+                    </div>
+            </h:form>  
+        </p:panelGrid>
+    </h:body>
+</html>
+

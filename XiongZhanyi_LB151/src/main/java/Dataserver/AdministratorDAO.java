@@ -36,9 +36,9 @@ public class AdministratorDAO {
                 throw new SQLException("Connection == null");
             }
             Statement stmt = con.createStatement();
-            ResultSet rs = stmt.executeQuery("");
+            ResultSet rs = stmt.executeQuery("SELECT * FROM `administrator`;");
             while(rs.next()){
-                if(rs.getString("name").equals(name) && rs.getString("password").equals(password)){
+                if(rs.getString("username").equals(name) && rs.getString("password").equals(password)){
                     return true;
                 }
             }

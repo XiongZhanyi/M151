@@ -10,6 +10,7 @@ import Applicationserver.PuzzleWord;
 import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -70,7 +71,21 @@ public class FortuneWheelDAO implements Serializable {
         return categoryList;
     }
     
-    public void addPuzzleWord(PuzzleWord puzzleWord, Category category){
+    public void deletePuzzleWord(PuzzleWord puzzleWord) throws SQLException, ClassNotFoundException{
+        PreparedStatement statement = getConnection().prepareStatement("DELETE FROM puzzleWord WHERE puzzleWord_Id=" + puzzleWord.getPuzzleWord() + ";");
+        statement.execute();
+    }
+    
+    public void deleteCategory(Category category) throws SQLException, ClassNotFoundException{
+        PreparedStatement statement = getConnection().prepareStatement("DELETE FROM category WHERE category_Id="+ category.getCategory_Id() +";");
+        statement.execute();
+    }
+    
+    public void addPuzzleWord(PuzzleWord puzzleWord){
+        
+    }
+    
+    public void addCategory(Category category){
         
     }
 }
