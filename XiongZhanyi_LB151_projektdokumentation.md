@@ -21,31 +21,31 @@
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
 * Tier 1 (Presentation): 
-* Eingabe Username
-* Eingabe Adminbenutzername und Passwort
-* Highscore Liste (Rang, Name, Geldbetrag, Anzahl Runden, Zeitpunkt)
-* Glücksrad Drehen
-* Kontoguthaben
-* Lebenspunkte
-* Konsonant erraten
-* Vokal kaufen
-* Rätselwort erraten
-* Administration von Phrasen und Rätselwörter (Löschen, Anlegen, Ändern)
-* Administration von Kategorien
-* Highscore Einträge löschen
+  * Eingabe Username
+  * Eingabe Adminbenutzername und Passwort
+  * Highscore Liste (Rang, Name, Geldbetrag, Anzahl Runden, Zeitpunkt)
+  * Glücksrad Drehen
+  * Kontoguthaben
+  * Lebenspunkte
+  * Konsonant erraten
+  * Vokal kaufen
+  * Rätselwort erraten
+  * Administration von Phrasen und Rätselwörter (Löschen, Anlegen, Ändern)
+  * Administration von Kategorien
+  * Highscore Einträge löschen
 * Tier 2 (Webserver):
-* Verwaltung von Glücksrad Spiel
-* Prüfung von Eingaben
-* Weiterleitung an Application Server
+  * Verwaltung von Glücksrad Spiel
+  * Prüfung von Eingaben
+  * Weiterleitung an Application Server
 * Tier 3 (Application Server):
-* Glücksrad Spielmechanik
-* Kategorie
-* Rätselwort
+  * Glücksrad Spielmechanik
+  * Kategorie
+  * Rätselwort
 * Tier 4 (Dataserver):
-* Highscore DAO
-* Adminstrator DAO
-* Fortunewheel DAO
-
+  * Highscore DAO
+  * Adminstrator DAO
+  * Fortunewheel DAO
+  
 # 2 Technologie
 
 ✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
