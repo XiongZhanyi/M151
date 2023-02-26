@@ -66,21 +66,21 @@ JDBC, MySQL, XAMPP mit MariaDB
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    | Muss                | Funktional | Als ein Administrator möchte ich mich mithilfe von einem Benutzername und einem Passwort authentifizieren können, damit nicht jeder Daten bearbeiten, hinzufügen oder löschen können. |
 | 2  | Muss                | Funktional | Als ein Administrator möchte ich Phrasen und Rätselwörter anlegen können, damit das Spiel mit neuen Phrasen und Rätselwörter erweitert werden kann. |
-| 2  | Muss                | Funktional | Als ein Administrator möchte ich Phrasen und Rätselwörter abändern und löschen können, damit vorhandene Fehlern behoben werden können. |
-| 3  | Muss | Funktional | Als ein Administrator möchte ich Kategorien anlegen können, damit das Spiel facettenreicher wird. |
-| 4  | Muss | Funktional | Als ein Administrator möchte ich jedes Wort bzw. jede Frage einer Kategorie zuordnen können, damit der Benutzer eine Kategorie für das Spiel mit den entsprechend zugeordnete Wörter bzw. Fragen auswählen können. |
-| 5  | Muss | Funktional | Als ein Administrator möchte ich Einträge der Highscore-Liste löschen, damit Spieler die Bug abusing betrieben haben von der Highscore-Liste entfernt werden können. |
-| 6 | Muss | Funktional | Als ein Kanditat möchte ich Rang, Name des Spielers, Zeitpunkt des Spiels, Geldbetrag und Anzahl Spielrunden in der Hightscore-Liste sehen, damit ich mich mit anderen Spielern vergleichen kann und motiviert werde mich mit anderen Spielern zu messen. |
-| 7 | Muss | Funktional | Als ein Kanditat möchte ich jederzeit aufhören können, damit mein Geldbetrag in die Highscore Liste übernommen wird. |
-| 8 | Muss | Funktional | Als ein Kanditat möchte ich einen Namen angeben können, damit ich mich mit anderen Spielern messen kann. |
-| 9 | Muss | Qualität | Als ein Kanditat möchte ich zur jeder Zeit mein Kontostand sehen, damit ich motiviert werden einen möglichst hohen Geldbetrag zu erspielen. |
-| 10 | Muss | Qualität | Als ein Kanditat möchte ich zur jeder Zeit meine Lebenpunkte sehen, damit ich weiss wie viele Vokale ich noch erkaufen kann. |
-| 11 | Muss | Qualität | Als ein Kanditat möchte ich dass mir mitgeteilt wird ob meine Antwort richtig oder falsch war, damit ein Glücksgefühl bei einer richtigen Antwort ausgelöst wird. |
-| 12 | Muss | Qualität | Als ein Kanditat möchte ich das die Highscore-Liste nach dem Geldbetrag absteigend sortiert wird, damit ich motiviert werde, so lange zu spielen, bis ich an der Spitze bin. |
-| 13 | Muss | Qualität | Als ein Kanditat möchte ich, dass ein Rätselwort nur einmal gestellt wird, damit das Spiel nicht langweilig wird. |
-| 14 | Muss | Qualität | Als ein Kanditat möchte ich, dass Benutzereingaben Clientseitig Überprüft wird, damit nicht jede Eingabe an den Server gesendet werden muss. |
-| 15 | Muss | Qualität | Als ein Administrator möchte ich, dass Benutzereingaben Serverseitig Überprüft wird, damit im System keine Fehler auftauchen. |
-| 16 | Muss | Randbedingung | Als ein Administrator möchte ich eine Webbrowserapplikation vom abgewandelte Version vom Glückrad, damit das Spiel auf jedem Gerät im Webbrowsser gespielt werden kann. |
+| 3 | Muss                | Funktional | Als ein Administrator möchte ich Phrasen und Rätselwörter abändern und löschen können, damit vorhandene Fehlern behoben werden können. |
+| 4  | Muss | Funktional | Als ein Administrator möchte ich Kategorien anlegen können, damit das Spiel facettenreicher wird. |
+| 5  | Muss | Funktional | Als ein Administrator möchte ich jedes Wort bzw. jede Frage einer Kategorie zuordnen können, damit der Benutzer eine Kategorie für das Spiel mit den entsprechend zugeordnete Wörter bzw. Fragen auswählen können. |
+| 6  | Muss | Funktional | Als ein Administrator möchte ich Einträge der Highscore-Liste löschen, damit Spieler die Bug abusing betrieben haben von der Highscore-Liste entfernt werden können. |
+| 7 | Muss | Funktional | Als ein Kanditat möchte ich Rang, Name des Spielers, Zeitpunkt des Spiels, Geldbetrag und Anzahl Spielrunden in der Hightscore-Liste sehen, damit ich mich mit anderen Spielern vergleichen kann und motiviert werde mich mit anderen Spielern zu messen. |
+| 8 | Muss | Funktional | Als ein Kanditat möchte ich jederzeit aufhören können, damit mein Geldbetrag in die Highscore Liste übernommen wird. |
+| 9 | Muss | Funktional | Als ein Kanditat möchte ich einen Namen angeben können, damit ich mich mit anderen Spielern messen kann. |
+| 10 | Muss | Qualität | Als ein Kanditat möchte ich zur jeder Zeit mein Kontostand sehen, damit ich motiviert werden einen möglichst hohen Geldbetrag zu erspielen. |
+| 11 | Muss | Qualität | Als ein Kanditat möchte ich zur jeder Zeit meine Lebenpunkte sehen, damit ich weiss wie viele Vokale ich noch erkaufen kann. |
+| 12 | Muss | Qualität | Als ein Kanditat möchte ich dass mir mitgeteilt wird ob meine Antwort richtig oder falsch war, damit ein Glücksgefühl bei einer richtigen Antwort ausgelöst wird. |
+| 13 | Muss | Qualität | Als ein Kanditat möchte ich das die Highscore-Liste nach dem Geldbetrag absteigend sortiert wird, damit ich motiviert werde, so lange zu spielen, bis ich an der Spitze bin. |
+| 14 | Muss | Qualität | Als ein Kanditat möchte ich, dass ein Rätselwort nur einmal gestellt wird, damit das Spiel nicht langweilig wird. |
+| 15 | Muss | Qualität | Als ein Kanditat möchte ich, dass Benutzereingaben Clientseitig Überprüft wird, damit nicht jede Eingabe an den Server gesendet werden muss. |
+| 16 | Muss | Qualität | Als ein Administrator möchte ich, dass Benutzereingaben Serverseitig Überprüft wird, damit im System keine Fehler auftauchen. |
+| 17 | Muss | Randbedingung | Als ein Administrator möchte ich eine Webbrowserapplikation vom abgewandelte Version vom Glückrad, damit das Spiel auf jedem Gerät im Webbrowsser gespielt werden kann. |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
