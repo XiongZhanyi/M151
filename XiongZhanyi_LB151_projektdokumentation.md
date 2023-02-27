@@ -121,7 +121,7 @@ Category.html
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-| ...        |       |              |
+| 8 | 13.02.2023 | Highscore Liste |
 
 # 7 Projektdokumentation
 
