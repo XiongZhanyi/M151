@@ -122,7 +122,7 @@ Category.html
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
 | 1 | 20.02.2023 | Administrator Authentification. |
-| 3 | 20.02.2023 | Phrasen und Räselwörter editieren. |
+| 3 | 20.02.2023 | Phrasen und Räselwörter editieren/löschen. |
 | 5 | 20.02.2023 | Phrasen und Räselwörter sind einer Kategory zugeordnet. |
 | 6 | 20.02.2023 | Einträge in HighscoreListe löschen. |
 | 7 | 20.02.2023 | Einträge von HighscoreList anzeigen. |
@@ -148,8 +148,13 @@ Category.html
 
 # 8 Testprotokoll
 
-https://youtu.be/BCgZaWvPQWI UserStory 1, 3
-https://youtu.be/-QEPGSTjmxw 
+https://youtu.be/BCgZaWvPQWI UserStory: 1, 3
+https://youtu.be/-QEPGSTjmxw UserStory: 7
+https://www.youtube.com/watch?v=ZpSMhH076hg UserStory: 3, 5
+https://youtu.be/OcA7Fcy8bOs UserStory: 4
+https://youtu.be/-nKxFNSh9s0 UserStory: 9, 10, 11, 17
+https://youtu.be/RfR8vZ4luUo UserStory: 6, 7
+
 
 
 | TC-№ | Datum | Resultat | Tester |
