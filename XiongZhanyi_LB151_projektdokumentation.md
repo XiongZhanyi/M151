@@ -14,11 +14,11 @@
 
 # 0 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Ein Glücksrad Spiel, bei der der Spieler ein Glücksrad drehen kann und daraufhin ein Konsonant von einem Rätselwort oder Phrase erraten kann. 
+Falls der Rateversuch erfolgreich ist, wird anhand von gedrehtem Glücksrad die gewonnene Geldmenge zum Konto addiert. 
+Falls der Rateversuch fählschlägt wird dem Spieler 1 von 3 Hearts abgezogen. 
 
 # 1 Analyse
-
-✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
 * Tier 1 (Presentation): 
   * Eingabe Username
@@ -48,19 +48,17 @@
   
 # 2 Technologie
 
-✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
-JSF, Java
+Tier 1 .xhtml, Primefaces, JSF
+Tier 2 JSF, Java 
+Tier 3 Java
+Tier 4 Java, JDBC
 
 # 3 Datenbank
 
-✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut?
-JDBC, MySQL, XAMPP mit MariaDB
+Mithilfe von JDBC steuere ich meine Datenbank an. 
+MySQL, XAMPP mit MariaDB
 
 # 4.1 User Stories
-
-✍️ Formulieren Sie klare Anforderungen in der Form von User Stories (*„als … möchte ich … damit …“*) und zu jeder Anforderung mindestens einen dazugehörigen Testfall (in Kapitel 4.2). 
-
-✍️ Formulieren Sie weitere, eigene Anforderungen und Testfälle, wie Sie Ihre Applikation erweitern möchten. Geben Sie diesen statt einer Nummer einen Buchstaben (`A`, `B`, etc.)
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
@@ -74,7 +72,7 @@ JDBC, MySQL, XAMPP mit MariaDB
 | 8 | Muss | Funktional | Als ein Kanditat möchte ich jederzeit aufhören können, damit mein Geldbetrag in die Highscore Liste übernommen wird. |
 | 9 | Muss | Funktional | Als ein Kanditat möchte ich einen Namen angeben können, damit ich mich mit anderen Spielern messen kann. |
 | 10 | Muss | Qualität | Als ein Kanditat möchte ich zur jeder Zeit mein Kontostand sehen, damit ich motiviert werden einen möglichst hohen Geldbetrag zu erspielen. |
-| 11 | Muss | Qualität | Als ein Kanditat möchte ich zur jeder Zeit meine Lebenpunkte sehen, damit ich weiss wie viele Vokale ich noch erkaufen kann. |
+| 11 | Muss | Qualität | Als ein Kanditat möchte ich zur jeder Zeit meine Lebenpunkte sehen, damit ich weiss wie viele Fehlversuche ich habe beim erraten eines Vokals.
 | 12 | Muss | Qualität | Als ein Kanditat möchte ich dass mir mitgeteilt wird ob meine Antwort richtig oder falsch war, damit ein Glücksgefühl bei einer richtigen Antwort ausgelöst wird. |
 | 13 | Muss | Qualität | Als ein Kanditat möchte ich das die Highscore-Liste nach dem Geldbetrag absteigend sortiert wird, damit ich motiviert werde, so lange zu spielen, bis ich an der Spitze bin. |
 | 14 | Muss | Qualität | Als ein Kanditat möchte ich, dass ein Rätselwort nur einmal gestellt wird, damit das Spiel nicht langweilig wird. |
@@ -82,21 +80,27 @@ JDBC, MySQL, XAMPP mit MariaDB
 | 16 | Muss | Qualität | Als ein Administrator möchte ich, dass Benutzereingaben Serverseitig Überprüft wird, damit im System keine Fehler auftauchen. |
 | 17 | Muss | Randbedingung | Als ein Administrator möchte ich eine Webbrowserapplikation vom abgewandelte Version vom Glückrad, damit das Spiel auf jedem Gerät im Webbrowsser gespielt werden kann. |
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
-
 # 4.2 Testfälle
 
 | TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | 1) Der Administrator mit dem Benutzername "Zhanyi Xiong" mit dem Passwort "Zhanyi123" ist in der Datenbank vorhanden. <br> 2) Die Seite index.html vom Glücksrad Spiel ist geöffnet. | 1) Klicken Sie auf Administrator. <br> 2) Tragen sie bei Username «Zhanyi Xiong» ein. <br> 3) Tragen sie bei Passwort «Zhanyi123» ein. <br> 4) Klicken Sie auf «Login». | 1) Sie werden Seite Category.html weitergeleitet. |
 | 2.1  | 1) Der Administrator mit dem Benutzername "Zhanyi Xiong" mit dem Passwort "Zhanyi123" ist in der Datenbank vorhanden. <br> 2) Die Seite index.html vom Glücksrad Spiel ist geöffnet. | 1) Klicken Sie auf Administrator. <br> 2) Tragen sie bei Username «Zhanyi Xiong» ein. <br> 3) Tragen sie bei Passwort «Zhanyi123» ein. <br> 4) Klicken Sie auf «Login». | 1) Sie werden Seite Category.html weitergeleitet. |
-| .1  | 1) Der Administrator mit dem Benutzername "Zhanyi Xiong" mit dem Passwort "Zhanyi123" ist in der Datenbank vorhanden. <br> 2) Die Seite index.html vom Glücksrad Spiel ist geöffnet. | 1) Klicken Sie auf Administrator. <br> 2) Tragen sie bei Username «Zhanyi Xiong» ein. <br> 3) Tragen sie bei Passwort «Zhanyi123» ein. <br> 4) Klicken Sie auf «Login». | 1) Sie werden Seite Category.html weitergeleitet. |
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+| 3.1 |1. Sie haben sich erfolgreich als Administrator authentifiziert. <br> 2. Die Seite category.html ist geöffnet. <br> 3. In der Datenbank befindet sich die Category «countries». | 1. Sie klicken auf Delete, welches sich in der gleichen Zeile wie «countries» befindet. | 1. Die Zeile mit «countries» verschwindet. | 
+| 3.2 | 1. Sie haben sich erfolgreich als Administrator authentifiziert. <br> 2. Die Seite category.html ist geöffnet. <br> 3. Sie klicken in der Zeile mit «countries» auf Edit. <br> 4. Sie wurden auf die Seite puzzleWord.html weitergeleitet. <br>5. In der Liste sehen Sie den Eintrag «Switzerland» | 1. Sie klicken auf Delete, welches sich in der gleichen Zeile wie «Switzerland» befindet. | 1. Die Zeile mit «Switzerland» verschwindet. |
+| 4.1 | 1. Sie haben sich erfolgreich als Administrator authentifiziert. <br> 2. Die Seite category.html ist geöffnet. <br> 3. Sie klicken in der Zeile mit «countries» auf Edit. <br> 4. Sie wurden auf die Seite puzzleWord.html weitergeleitet. | 1. Oben Rechts befindet sich ein Button «Add PuzzleWord» <br> 2. Sie werden auf die Seite addPuzzleWord.html weitergeleitet. <br> 3. Sie gaben bei Puzzleword «Switzerland» ein. <br> 4. Sie klicken auf Add Puzzleword. | 1. Sie werden auf die Seite puzzleWord.html zurückgeleitet. <br> 2. Sie können in der Tabelle unter der Spalte PuzzleWord «Switzerland» sehen. |
+| 5.1 | 1. Sie haben sich erfolgreich als Administrator authentifiziert. <br> 2. Die Seite category.html ist geöffnet. |1. Oben Rechts befindet sich ein Button «Add Category» <br> 2. Sie werden auf die Seite addCategory.html weitergeleitet. <br> 3. Sie gaben bei Category Name «countries» ein. <br> 4. Sie klicken auf Add Category. | 1. Sie werden auf die Seite category.html zurückgeleitet. <br> 2. Sie können in der Tabelle unter der Spalte Category Name «countries» sehen. |
+| 6.1 | 1. Sie haben sich erfolgreich als Administrator authentifiziert. <br> 2. Die Seite category.html ist geöffnet. <br> 3. Es gibt einen Highscore mit dem Username «Zhanyi» | 1. Oben Link finden Sie den Button «Edit Highscorelist» <br> 2, Sie werden auf die Seite editHighscoreList.html weitergeleitet. <br> 3. In der Liste klicken Sie auf den Delete Button, welche sich in der Zeile mit dem Username «Zhanyi» befindet. | 1. Der Eintrag in der List mit dem Username «Zhanyi» verschwindet. |
+| 7.1 | 1. Sie befinden sich auf der index.html Seite vom Spiel | 1. Sie klicken auf den Butten «Highscore» | 1. Sie werden auf die Seite highscore.htmlWeitergeleitet und sehen eine Liste mit Rank, Username, Date, Balance und Rounds sehen. |
+| 8.1 | 1. Sie befinden sich auf der index.html Seite vom Spiel <br> 2. Sie haben geben «Zhanyi» bei Username ein. <br> 3. Sie haben auf Play gedrückt. | 1. Sie geben auf den Button Aufgeben. | 1. Sie werden zurück auf die Index.html Seite geleitet. <br> 2. Sie sehen auf der Highscore.html Seite Ihr name mit Balance 1000. |
+| 9.1 | 1. Sie befinden sich auf der index.html Seite vom Spiel <br> 2. Sie haben geben «Zhanyi» bei Username ein. <br> 3. Sie haben auf Play gedrückt. |1. Sie geben auf den Button Aufgeben. | 1. Sie werden zurück auf die Index.html Seite geleitet. <br> 2. Sie sehen auf der Highscore.html Seite Ihr name mit Balance 1000. |
+| 10.1 | 1. Sie befinden sich auf der index.html Seite vom Spiel <br> 2. Sie haben geben «Zhanyi» bei Username ein. | 1. Sie drücken den Button Play. | 1. Auf der Linken Seite sehen sie «Balance:» und «1000» |
+| 11.1 | 1. Sie befinden sich auf der index.html Seite vom Spiel <br> 2. Sie haben geben «Zhanyi» bei Username ein. | 1. Sie drücken den Button Play. | 1. Auf der Linken Seite sehen sie «Hearts:» mit der Zahl «3» |
+| 12.1 | 1. Sie befinden sich auf der index.html Seite vom Spiel <br> 2. Sie haben geben «Zhanyi» bei Username ein. <br> 3. Sie haben auf den Button «Play» gedrückt. <br> 4. Ihnen wurde die Category «Idiom» zugewiesen. <br> 5. Ihnen wurde die PuzzleWord «Better late than never» zugewiesen. <br> 6. Sie haben das Glücksrad gedreht und bekommen nicht die Ausgabe «BAnkkrott». | 1. Sie geben im Inputfeld oberhalb von Button «Guess» «N» ein. <br> 2. Sie Drücken auf Guess. | 1. Sie bekommen die Meldung «Richtig» |
+| 12.2 | 1. Sie befinden sich auf der index.html Seite vom Spiel <br> 2. Sie haben geben «Zhanyi» bei Username ein. <br> 3. Sie haben auf den Button «Play» gedrückt. <br> 4. Ihnen wurde die Category «Idiom» zugewiesen. <br> 5. Ihnen wurde die PuzzleWord «Better late than never» zugewiesen. <br> 6. Sie haben das Glücksrad gedreht und bekommen nicht die Ausgabe «Bankkrott». | 1. Sie geben im Inputfeld oberhalb von Button «Guess» «Y» ein. <br> 2. Sie Drücken auf Guess. | 1. Sie bekommen die Meldung «Falsch» |
+| 13.1 | 1. Sie befinden sich auf der index.html Seite des Spiels. <br> 2. In der Datenbank gibt es den Player: <br> Username: «Zhanyi» <br> Balance: «2000» <br> Username: «Ramias» <br> Balance: «1100» <br> Username: «Anna» <br> Balance: «1500» | 1. Sie klicken auf den Button «Highscore» | 1. Sie sehen eine Liste in der ersten Zeile ist «Zhanyi» <br> 2. In der zweiten Zeile sehen Sie «Anna» <br> 3. In der dritten Zeile sehen Sie «Ramias» |
 
 # 5 Prototyp
-
-✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
 
 Index.html
 ![index](https://user-images.githubusercontent.com/94226346/213975538-d5f81209-1e64-4004-a6e4-31fc61e9e795.jpg)
