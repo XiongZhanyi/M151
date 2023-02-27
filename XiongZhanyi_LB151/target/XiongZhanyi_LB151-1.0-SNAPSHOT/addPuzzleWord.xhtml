@@ -11,11 +11,9 @@
             <h:outputText value=""/>
 
             <h:form>
-                <h1><h:outputText value="#{editCategoryController1.editedCategory}"/></h1>
-                <br></br>
-                <p:inputText id="inputTextChar" value="#{editCategoryController1.editedCategory}" />
-                <br></br>
-                <p:commandButton action="#{editCategoryController1.edit()}" value="Edit"/>
+                <h1><h:outputText value="New PuzzleWord"/></h1>
+                <p:inputText id="inputTextChar" value="#{editPuzzleWordController.newPuzzleWord}" />
+                <p:commandButton action="#{editPuzzleWordController.addPuzzleWord()}" value="Edit"/>
             </h:form>  
         </p:panelGrid>
     </h:body>

@@ -1,7 +1,5 @@
-Webserver\FortuneWheelGame.class
 Webserver\HighscoreController.class
 Applicationserver\Player.class
-Dataserver\FortuneWheelDAO.class
 Applicationserver\Category.class
 Applicationserver\PuzzleWord.class
 Dataserver\HighscoreDAO.class

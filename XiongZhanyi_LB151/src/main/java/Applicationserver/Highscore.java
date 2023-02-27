@@ -11,23 +11,29 @@ import java.util.Date;
  * @author Xiong Zhan Yi
  */
 public class Highscore {
+    private final int highscore_Id;
     private final String name;
-    private final Date date;
+    private final String date;
     private final int moneyBalance;
     private final int numberOfRounds;
 
-    public Highscore(String name, Date date, int moneyBalance, int numberOfRounds) {
+    public Highscore(int highscore_Id, String name, Date date, int moneyBalance, int numberOfRounds) {
+        this.highscore_Id = highscore_Id;
         this.name = name;
-        this.date = date;
+        this.date = date.toString();
         this.moneyBalance = moneyBalance;
         this.numberOfRounds = numberOfRounds;
     }
 
+    public int getHighscore_Id() {
+        return highscore_Id;
+    }
+    
     public String getName() {
         return name;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 

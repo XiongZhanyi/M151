@@ -11,11 +11,11 @@
             <h:outputText value=""/>
 
             <h:form>
-                <h1><h:outputText value="#{editCategoryController1.editedCategory}"/></h1>
+                <h1><h:outputText value="New Category"/></h1>
                 <br></br>
-                <p:inputText id="inputTextChar" value="#{editCategoryController1.editedCategory}" />
+                <p:inputText id="inputTextChar" value="#{editCategoryController1.categoryName}" />
                 <br></br>
-                <p:commandButton action="#{editCategoryController1.edit()}" value="Edit"/>
+                <p:commandButton action="#{editCategoryController1.addNewCategory()}" value="Edit"/>
             </h:form>  
         </p:panelGrid>
     </h:body>

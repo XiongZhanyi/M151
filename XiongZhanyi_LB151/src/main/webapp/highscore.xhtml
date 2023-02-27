@@ -9,36 +9,25 @@
     </h:head>
     <h:body>
         <p:panelGrid columns="3" layout="grid">
-            <h:outputText value=""/>
+            <h:outputText value="" />
 
-            <h1>Highscore</h1>
-
-            <h:outputText value=""/>
-            <h:outputText value=""/>
-            
-            <p:dataTable var="highscore" value="#{highscoreController.highscoreList}">
-                <f:facet name="header">
-                    <h:body>Highscore:<h:body>
-                </f:facet>
-                <p:column>
-                    <f:facet name="header">
-                        Name
-                    </f:facet>
-                        #{highscore.name}
-                    <f:facet name="footer">
-                        
-                    </f:facet>
-                </p:column>
-                <p:column headerText="Year" footerText="1960-2010">
-                    #{car.year}
-                </p:column>
-                //more columns
-                <f:facet name="footer">
-                    In total there are #{fn:length(carBean.cars)} cars.
-                </f:facet>
-            </p:dataTable>
-            
-            <h:outputText value=""/>
+            <h:form>
+                <h1>Highscore</h1>
+                <p:dataTable var="highscore" value="#{highscoreController.highscoreList}">
+                    <p:column headerText="Username">
+                        <h:outputText value="#{highscore.name}" />
+                    </p:column>
+                    <p:column headerText="Date">
+                        <h:outputText value="#{highscore.date}" />
+                    </p:column>
+                    <p:column headerText="Balance">
+                        <h:outputText value="#{highscore.moneyBalance}" />
+                    </p:column>
+                    <p:column headerText="Rounds">
+                        <h:outputText value="#{highscore.numberOfRounds}" />
+                    </p:column>
+                </p:dataTable>
+            </h:form>  
         </p:panelGrid>
     </h:body>
 </html>

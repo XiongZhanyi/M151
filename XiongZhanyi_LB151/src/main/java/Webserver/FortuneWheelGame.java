@@ -133,9 +133,28 @@ public class FortuneWheelGame implements Serializable {
     }
     
     public String guess(){               
-        setHiddenWord(inputConsonant);
         setSpinTheWheelBtn(false);
         setGuessBtn(true);
+        if(wheelVal == "Bankrott"){
+            // Game Over
+        }
+        char consonant = inputConsonant.charAt(0);
+        int count=0;
+        String puzzleWordString = puzzleWord.getPuzzleWord();
+        for (int i = 0; i < puzzleWordString.length(); i++) {
+            if (puzzleWordString.charAt(i) == consonant) {
+                count++;
+            }
+        }
+        
+        if(count == 0){
+            player.deductLifePoint();
+        }
+        
+        int wheelValInt = Integer.getInteger(wheelVal);
+        player.addBalance(wheelValInt*count);
+        
+        setHiddenWord(hiddenWord);
         return "/fortuneWheel";
     }
 

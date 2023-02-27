@@ -19,11 +19,12 @@ import javax.inject.Named;
 public class EditCategoryController implements Serializable {
     
     private Category category;
-    private String categoryString = "";
+    private String editedCategory = "";
+    private FortuneWheelDAO fortuneWheelDAO = new FortuneWheelDAO();
     
     public String editCategory(Category category){
         this.category = category;
-        this.categoryString = category.getCategoryName();
+        this.editedCategory = category.getCategoryName();
         return "categoryEdit.xhtml";
     }
 
@@ -31,19 +32,20 @@ public class EditCategoryController implements Serializable {
         return category;
     }
 
-    public String getCategoryString() {
-        return categoryString;
+    public String getEditedCategory() {
+        return editedCategory;
     }
 
     public void setCategory(Category category) {
         this.category = category;
     }
 
-    public void setCategoryString(String categoryString) {
-        this.categoryString = categoryString;
+    public void setEditedCategory(String editedCategory) {
+        this.editedCategory = editedCategory;
     }
 
     public String edit(){
-        return "category.xhtml";
+        fortuneWheelDAO.editCategory(category, editedCategory);
+        return "/category.xhtml";
     }
 }

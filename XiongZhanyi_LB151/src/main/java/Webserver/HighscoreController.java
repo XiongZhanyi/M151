@@ -25,4 +25,9 @@ public class HighscoreController implements Serializable {
     public List<Highscore> getHighscoreList() {
         return highscoreList;
     }  
+    
+    public String deleteHighscore(Highscore highscore) throws SQLException, ClassNotFoundException{
+        highscoreDAO.deleteHighscore(highscore);
+        return "/highscoreAdmin";
+    }
 }

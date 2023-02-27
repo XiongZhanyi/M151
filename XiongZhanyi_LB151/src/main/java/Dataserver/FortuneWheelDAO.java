@@ -81,11 +81,10 @@ public class FortuneWheelDAO implements Serializable {
         statement.execute();
     }
     
-    public void addPuzzleWord(PuzzleWord puzzleWord){
+    public void editPuzzleWord(PuzzleWord puzzleWord, String editedPuzzleWord) throws SQLException, ClassNotFoundException{
         
     }
-    
-    public void addCategory(Category category){
+    public void editCategory(Category category, String editedCategory){
         
     }
 }

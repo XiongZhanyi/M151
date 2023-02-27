@@ -11,8 +11,8 @@
             <h:outputText value=""/>
 
             <h:form>
-                <h1><h:outputText value="#{editPuzzleWordController.categoryString}"/></h1>
-                <p:inputText id="inputTextChar" value="#{editPuzzleWordController.categoryString}" />
+                <h1><h:outputText value="#{editPuzzleWordController.puzzleWordString}"/></h1>
+                <p:inputText id="inputTextChar" value="#{editPuzzleWordController.puzzleWordString}" />
                 <p:commandButton action="#{editPuzzleWordController.edit()}" value="Edit"/>
             </h:form>  
         </p:panelGrid>

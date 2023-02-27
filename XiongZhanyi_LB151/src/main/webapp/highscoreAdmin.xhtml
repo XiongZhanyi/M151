@@ -9,7 +9,7 @@
     </h:head>
     <h:body>
         <p:panelGrid columns="3" layout="grid">
-            <h:outputText value="" />
+            <p:commandButton value="Category" action="/category.xhtml"></p:commandButton>
 
             <h:form>
                 <h1>Highscore</h1>
@@ -25,6 +25,11 @@
                     </p:column>
                     <p:column headerText="Rounds">
                         <h:outputText value="#{highscore.numberOfRounds}" />
+                    </p:column>
+                    <p:column headerText="Action">
+                        <p:commandButton value="Delete" action="#{highscoreController.deleteHighscore(highscore)}">
+                            <f:ajax render = "@all" />
+                        </p:commandButton>
                     </p:column>
                 </p:dataTable>
             </h:form>  

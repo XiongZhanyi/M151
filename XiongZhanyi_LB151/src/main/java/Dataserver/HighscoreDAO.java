@@ -7,6 +7,7 @@ package Dataserver;
 import Applicationserver.Highscore;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -40,9 +41,9 @@ public class HighscoreDAO {
                 throw new SQLException("Connection == null");
             }
             Statement stmt = con.createStatement();
-            ResultSet rs = stmt.executeQuery("SELECT name, date, moneyBalance, numberOfRounds FROM `highscore`;");
+            ResultSet rs = stmt.executeQuery("SELECT highscore_Id, name, date, moneyBalance, numberOfRounds FROM `highscore`;");
             while(rs.next()){
-                HighscoreList.add(new Highscore(rs.getString("name"), rs.getDate("date"), rs.getInt("moneyBalance"), rs.getInt("numberOfRounds")));
+                HighscoreList.add(new Highscore(rs.getInt("highscore_Id"), rs.getString("name"), rs.getDate("date"), rs.getInt("moneyBalance"), rs.getInt("numberOfRounds")));
             }
         }
         catch(SQLException ex){
@@ -51,7 +52,8 @@ public class HighscoreDAO {
         return HighscoreList;
     }
     
-    public void deleteHighscore(Highscore highscore){
-        
+    public void deleteHighscore(Highscore highscore) throws SQLException, ClassNotFoundException{
+        PreparedStatement statement = getConnection().prepareStatement("DELETE FROM category WHERE highscore_Id="+ highscore.getHighscore_Id() +";");
+        statement.execute();
     }
 }

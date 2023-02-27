@@ -19,11 +19,12 @@ import javax.inject.Named;
 public class EditPuzzleWordController implements Serializable {
     
     private PuzzleWord puzzleWord;
-    private String puzzleWordString = "";
+    private String editedPuzzleWord = "";
+    private FortuneWheelDAO fortuneWheelDAO = new FortuneWheelDAO();
     
     public String editPuzzleWord(PuzzleWord puzzleWord){
         this.puzzleWord = puzzleWord;
-        this.puzzleWordString = puzzleWord.getPuzzleWord();
+        this.editedPuzzleWord = puzzleWord.getPuzzleWord();
         return "puzzleWordEdit.xhtml";
     }
 
@@ -31,19 +32,20 @@ public class EditPuzzleWordController implements Serializable {
         return puzzleWord;
     }
 
-    public String getPuzzleWordString() {
-        return puzzleWordString;
+    public String getEditedPuzzleWord() {
+        return editedPuzzleWord;
     }
 
     public void setPuzzleWord(PuzzleWord puzzleWord) {
         this.puzzleWord = puzzleWord;
     }
 
-    public void setPuzzleWordString(String puzzleWordString) {
-        this.puzzleWordString = puzzleWordString;
+    public void setEditedPuzzleWord(String editedPuzzleWord) {
+        this.editedPuzzleWord = editedPuzzleWord;
     }
     
-    public String edit(){
-        return "puzzleWord.xhtml";
+    public String edit() throws SQLException, ClassNotFoundException{
+        fortuneWheelDAO.editPuzzleWord(puzzleWord, editedPuzzleWord);
+        return "/puzzleWord";
     }
 }
