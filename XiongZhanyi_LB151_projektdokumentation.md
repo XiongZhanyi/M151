@@ -121,14 +121,30 @@ Category.html
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-| 8 | 13.02.2023 | Highscore Liste |
+| 1 | 20.02.2023 | Administrator Authentification. |
+| 3 | 20.02.2023 | Phrasen und Räselwörter editieren. |
+| 5 | 20.02.2023 | Phrasen und Räselwörter sind einer Kategory zugeordnet. |
+| 6 | 20.02.2023 | Einträge in HighscoreListe löschen. |
+| 7 | 20.02.2023 | Einträge von HighscoreList anzeigen. |
+| 9 | 20.02.2023 | Username eingeben. |
+| 10 | 20.02.2023 | Kontostand wird angezeigt. |
+| 11 | 20.02.2023 | Lebenpunkte werden angezeigt. |
+| 17 | 20.02.2023 | Spiel findet im Webbrowser statt. |
 
 # 7 Projektdokumentation
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
-| 1    | ja / nein |                                           |
-| ...  |           |                                           |
+| 1 | ja | login.xhtml <br> loginController.java Zeile 20-27 <br> AdministratorDAO.java Zeile 32-49|
+| 3 | ja | puzzleWordEdit.xhtml <br> categoryEdit.xhtml <br> EditCategoryController.java <br> EditPuzzleWordController.java <br> FortuneWheelDAO.java Zeile: 84-89 |
+| 5 | ja | PuzzleWord.java Zeile: 16-20 |
+| 6 | ja | highscoreAdmin.xhtml Zeile: 30 |
+| 7 | ja | highscore.xhtml Zeile: 16-29 |
+| 9 | ja | index.xhtml Zeile: 17-18 |
+| 10 | ja | fortuneWheel.xhtml Zeile 21 |
+| 11 | ja | fortuneWheel.xhtml Zeile: 19 |
+| 17 | ja | fortuneWheel.xhtml |
+
 
 # 8 Testprotokoll
 
