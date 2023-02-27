@@ -152,10 +152,19 @@ Category.html
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 27.02.2023 | OK | Zhanyi Xiong |
+| 3.1  | 27.02.2023 | OK | Zhanyi Xiong |
+| 5.1 | 27.02.2023 | OK | Zhanyi Xiong |
+| 6.1 | 27.02.2023 | OK | Zhanyi Xiong |
+| 7.1 | 27.02.2023 | OK | Zhanyi Xiong |
+| 9.1 | 27.02.2023 | OK | Zhanyi Xiong |
+| 10.1 | 27.02.2023 | OK | Zhanyi Xiong |
+| 11.1 | 27.02.2023 | OK | Zhanyi Xiong |
+| 17.1 | 27.02.2023 | OK | Zhanyi Xiong |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Fazit:
+Die Admin Funktionen sind grösstenteils Implementiert, es gibt noch einige Fehler.
+Das Spiel funktioniert überhaupt nicht, es passiert nichts wenn man auf den Guess Button Klickt. 
 
 # 9 `README.md`
 
