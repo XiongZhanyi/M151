@@ -148,7 +148,9 @@ Category.html
 
 # 8 Testprotokoll
 
-✍️ Fügen Sie hier den Link zu dem Video ein, welches den Testdurchlauf dokumentiert.
+https://youtu.be/BCgZaWvPQWI UserStory 1, 3
+https://youtu.be/-QEPGSTjmxw 
+
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
